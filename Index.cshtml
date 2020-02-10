@@ -1,0 +1,38 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+    <form action="">
+        <div class="contenedor">
+            <div class="caja">
+                <h1>Configuracion de los mensajes</h1>
+                <div class="row" id="primero">
+                    <label class="col-md-4 control-label">Configuracion por:</label>
+                    <select name="" id="configopcion" class="col-md-7 form-control">
+                        <option value="agencia">Agencia</option>
+                        <option value="cliente">Cliente</option>
+                    </select>
+                </div>
+                <div class="row opcion" id="cliente" style="display:none">
+                    <label class="col-md-4 control-label">Codigo cliente:</label>
+                    <input type="text" class="col-md-7 form-control">
+                </div>
+                <div class="row opcion" id="agencia">
+                    <label class="col-md-4 control-label">Agencia:</label>
+                    <select name="" id="" class="col-md-7 form-control">
+                        <option value="">La Paz</option>
+                        <option value="">Cochabamba</option>
+                        <option value="">Santa Cruz</option>
+                        <option value="">Oruro</option>
+                        <option value="">Sucre</option>
+                        <option value="">Potosi</option>
+                        <option value="">Beni</option>
+                        <option value="">Pando</option>
+                        <option value="">Tarija</option>
+                    </select>
+                </div>
+                <div class="row d-flex justify-content-center" id="boton">
+                    <button class="btn btn-secondary">Configurar</button>
+                </div>
+            </div>
+        </div>
+    </form>
